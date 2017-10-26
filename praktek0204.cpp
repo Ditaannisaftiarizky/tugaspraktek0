@@ -8,4 +8,9 @@ int main (){
 	double Luas_1box = Lantai_parket*8/1000000;
 	double jml_box_paket, Biaya_parket, Biaya_pasang,
 	Totalbyr;
+	
+	cout << "Luas Rumah :" << Luas_rumah<<" m2 "<<endl;
+	cout << "Luas 1 box Parket :"
+	<< Luas_1box<< "m2"<<endl;
+	
 }
