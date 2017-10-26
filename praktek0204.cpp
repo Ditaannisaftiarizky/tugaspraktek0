@@ -13,4 +13,12 @@ int main (){
 	cout << "Luas 1 box Parket :"
 	<< Luas_1box<< "m2"<<endl;
 	
+	jml_box_parket = Luas_rumah/Luas_1box;
+	cout<< "Jumlah Box Parket :" <<jml_box_parket<<endln;
+	
+	Biaya_parket = jml_box_parket*500;
+	cout << " Biaya Parket(Rp) :"<<Biaya_parket<<endl;
+	
+	Biaya_pasang = Luas_rumah*20;
+	cout << "Biaya Pasang(Rp) :"<<Biaya_pasang<<endl;  
 }
